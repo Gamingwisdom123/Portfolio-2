@@ -1,0 +1,273 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+         font-family: 'Poppins', sans-serif;
+         background: linear-gradient(135deg, #0d1b2a, #1b263b, #0a0f1c);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+         color: white;
+         font-family: 'Poppins', sans-serif;
+    }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+             background: linear-gradient(135deg, #0d1b2a, #1b263b, #0a0f1c);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-attachment: fixed;
+            box-shadow: 20px 20px 60px #0a0f1c, -20px -20px 60px #1b263b;
+            position:sticky;
+            top:0;
+             z-index: 1000;
+           
+           
+        }
+    .Logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        
+
+    }
+    header nav ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+        
+
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        transition: color 0.3s ease;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     header nav ul li {
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+
+    }
+    header nav ul li:hover{
+        border-bottom: 5px solid lightblue;
+    }
+    header nav ul li#download_cv {
+        background-color: none;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: solid 2px white;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: center;
+        padding: 100px 20px;
+        box-shadow: #0a0f1c 20px 20px 60px, #1b263b -20px -20px 60px;
+        gap: 20px;
+        
+    }
+    .hero .hero_img{
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        border: solid 5px white;
+        background-image: url('Porfolio_img.png');
+        background-size: cover;
+        background-position: center;
+        background-color: white;
+
+
+    }
+    .hero .hero-content{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 20px;
+    }
+    .hero .hero-content .Access{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+
+    }
+    .hero .hero-content .Access a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        transition: color 0.3s ease;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: solid 2px white;
+    }
+    .hero .hero-content .Access a:hover{
+        background-color: white;
+        color: black;
+    }
+    .about{
+        display: table;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: center;
+        padding: 100px 20px;
+        box-shadow: #0a0f1c 20px 20px 60px, #1b263b -20px -20px 60px;
+        gap: 20px;
+        border-bottom: solid 1px white;
+        height: 600px;
+    }
+   .about h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+   }
+    .about h3{
+     font-size: 24px;
+     margin-bottom: 20px;
+     color: lightblue;
+    }
+      .projects{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px;
+        box-shadow: #0a0f1c 20px 20px 60px, #1b263b -20px -20px 60px;
+        gap: 20px;
+         border-bottom: 2px solid white;
+
+
+    }
+    .projects h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid white;
+    }
+    .projects h4{
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: lightblue;
+    }
+   
+    .project h3{
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: lightblue;
+    }
+    .project-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+        padding: 20px;
+        box-shadow: #0a0f1c 20px 20px 60px, #1b263b -20px -20px 60px;
+        gap: 20px;
+        border-bottom: 2px solid white;
+        flex-wrap: wrap;
+    }
+    .project-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        box-shadow: #0a0f1c 20px 20px 60px, #1b263b -20px -20px 60px;
+        gap: 20px;
+        border-radius: 10px;
+        border: white solid 1px;
+        height: 300px;
+       
+        
+   
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px;
+        gap: 20px;
+
+    }
+   .contact .contact-info .contact-item img {
+    width: 30px;
+    height: 30px;
+   
+   }
+   .contact .contact-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    
+   }
+   .contact .contact-info .contact-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 10px 20px;
+   }
+   .contact .contact-info .contact-item p a{
+    text-decoration: none;
+    color: lightblue;
+    transition: color 0.3s ease;
+   }
+   .contact .contact-info .contact-item p a:hover{
+    color: white;
+   }
+
+    @media (max-width: 768px) {
+        .hero{
+            flex-direction: column;
+        }
+        .hero .hero_img{
+            width: 100%;
+        }
+        .about{
+            flex-direction: column;
+        }
+        .projects{
+            flex-direction: column;
+        }
+        .project-container{
+            flex-direction: column;
+        }
+        header nav ul{
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact .contact-info{
+            flex-direction: column;
+        }
+    }
+
+
+   
